@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    font-family: poppings, sans-serif;
+    background: linear-gradient(127.72deg, #1E1B44 -3.04%, #45108A 109.53%);
+    color: #ffffff;
+    --webkit-font-smoothing: subpixel-antialiased;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%:
+    
+}
+
+.wraper {
+    margin: 0 auto;
+    max-width: 1310px;
+    background: #201D47;
+    margin-top: 10.8rem;
+    margin-bottom: 10.8rem;
+    
+    padding: 2.375rem 3.125rem;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    padding-left: 0.4rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.container div table {
+    width: 100%; 
+    color: #7877B1;
+}
+
+.container th {
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%); 
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    border-radius: 11px;
+}
+.container th p {
+    font-weight: 100;
+    color: #7877B1;
+    margin-top: 6px;
+}
+
+.container td {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 12px;
+    border-radius: 11px; 
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
+    box-shadow: -30.8563px 42.0768px 84.1535px #17122B;
+    backdrop-filter: blur(11.4576px)
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.oculta {
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    height: 100px
+    width: 30px;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+    padding-left: 0.625rem;
+    line-height: 32px;
+}
+
+.title h1 {
+    font-weight: 500;
+}
+
+.title p {
+    color: #7473D0;
+    font-size: 12px;
+}
+
+.wallets {
+  
+    padding-left: 0.625rem;
+}
+.wallets strong {
+    color: #B1AFCD;
+    font-weight: 500;
+    font-size: 12px;
+}
+.container_panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 67px;
+}
+
+.wallet_panel {
+    width: 185px;
+    height: 67px;
+    background: linear-gradient(127.41deg, #42E8E0 -6.67%, #0B98C5 74.57%);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1.2rem;
+    padding: 14px;
+}
+
+.img_bitcoin img {
+    width: 35px;
+    
+}
+
+.wallet_panel span {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.transparent {
+    background: transparent;
+    border: 1px solid #7473D0;
+}
+
+.transparent .img_bitcoin  img {
+    width: 23px;
+    margin-right: 10px;
+}
+ß
+.img_bitcoin {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_graf {
+    width: 47px;
+    height: 12px;
+}
+
+.wallet_content {
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info span{
+    opacity: 0.5
+}
+
+footer {
+    padding: 30px 0 30px 23px;
+    margin-top: 2rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    width: calc(100% - 0.4rem);
+    background: linear-gradient(268.95deg, rgba(41, 37, 88, 0.536345) 4.06%, rgba(38, 35, 83, 0.866791) 42.35%, rgba(40, 38, 89, 0.50218) 99.53%);
+    overflow: hidden;
+}
+
+footer strong {
+    z-index: 999;
+    font-weight: 500;
+    color: #7877B1;
+    font-size: 12px;
+}
+
+.content_footer {
+    margin-top: 1rem;
+    display: flex;
+    allign-items: center;
+    gap: 2.125rem;
+}
+
+
+.convert_values {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input_box {
+    position: relative; 
+}
+
+
+.input_box input::placeholder {
+    color: #ffffff;
+}
+
+.input_box img {
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 0;
+    padding-left: 20px; 
+}
+
+.input_box input {
+    color: #ffffff;
+    padding-left:  70px;
+    width: 388px;
+    height: 55px;
+    background: transparent;
+    border: 1px solid #7877B1;
+    border-radius: 11px;
+}
